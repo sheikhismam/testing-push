@@ -1,0 +1,73 @@
+.body {
+    background-color: #1A1A1A;
+}
+
+.logo{
+    width: 100px;
+}
+
+li{
+    list-style: none;
+}
+
+nav {
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.resume {
+    background-color: #00BFFF;
+    vertical-align: middle;
+    border-radius: 8px;
+}
+
+.banner-h1 {
+    color: cyan;
+    font-size: 60px;
+}
+
+.banner-container {
+    padding: 40px 120px;
+}
+
+.banner-right img{
+    width: 270px;
+}
+
+.bi-github,
+.bi-linkedin,
+.bi-youtube,
+.bi-amazon,
+.bi-apple {
+    color: #00BFFF;
+    vertical-align: middle;
+}
+
+.banner-left p {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.link {
+    margin: 30px;
+}
+
+.portfolio-right h2 {
+    color: #00BFFF;
+}
+
+.skill-right h2 {
+    color: #00BFFF;
+}
+
+.contact-me {
+    box-shadow: 4px 4px 8px grey;
+    margin: 40px;
+}
+
+.l {
+    margin: 10px;
+}
+
+.footer {
+    padding: 50px;
+}
