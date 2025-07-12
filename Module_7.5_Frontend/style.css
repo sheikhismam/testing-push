@@ -1,0 +1,93 @@
+#input-container {
+    display: flex;
+    justify-content: center;
+    margin: 120px;
+    margin-bottom: 50px;
+    gap: 15px;
+}
+
+::placeholder {
+    font-size: 16px;
+}
+
+#input-box {
+    width: 550px;
+    padding: 25px;
+    border: 1px solid rgb(92, 62, 7);
+    box-shadow: 4px 4px 8px gray;
+    border-radius: 5px;
+}
+
+
+#search-btn {
+    background-color: #FF8C00;
+    padding: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 8px gray;
+    color: white;
+    font-size: 20px;
+    border: none;
+}
+
+#search-btn:hover {
+    cursor: pointer;
+    background-color: #da8e37;
+}
+
+
+#red-warning,
+.no-meal
+{
+    text-align: center;
+    color: red;
+}
+
+#meal-main-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 10px;
+} 
+
+#meal-container {
+    padding: 250px 50px 20px 50px;
+}
+
+.meal-card {
+    box-shadow: 4px 4px 8px gray;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+
+
+#meal-img {
+    height: 250px;
+    width: 340px;
+    align-items: baseline;
+}
+
+#meal-title {
+    text-align: center;
+    color: blueviolet;
+    margin-bottom: 100px;
+}
+
+
+.parent-details-card {
+    display: flex;
+    justify-content: center;
+}
+
+.details-meal-card {
+    padding: 10px;
+    box-shadow: 4px 4px 8px gray;
+    width: 25%;
+    border-radius: 10px;
+}
+
+.details-meal-img {
+    height: 300px;
+    width: 100%;
+}
