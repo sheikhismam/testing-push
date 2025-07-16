@@ -1,0 +1,189 @@
+#input-container {
+    display: flex;
+    justify-content: center;
+    padding: 40px 240px 50px 10px;
+    gap: 10px;
+}
+
+#search-bar {
+    padding: 20px;
+    width: 40%;
+    border-radius: 5px;
+    border: 0.5px solid gray;
+}
+
+::placeholder {
+    font-size: 16px;
+}
+
+#search-btn {
+    padding: 10px 20px;
+    font-size: large;
+    border-radius: 15px;
+    background-color: white;
+    border: 1px solid #FF8C00;
+}
+
+#search-btn:hover {
+    cursor: pointer;
+    background-color: #FF8C00;
+}
+
+
+.drink-img {
+    width: 315px;
+    height: 280px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.drink-card {
+    border: 0.3px solid gray;
+    border-radius: 10px;
+    margin-right: 25px;
+    margin-bottom: 20px;
+}
+
+#drink-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px;
+}
+
+.drink-name,
+.drink-category,
+.drink-instructions
+{
+    text-align: center;
+}
+
+.buttons {
+    padding-bottom: 20px;
+
+}
+
+#main-container {
+    display: flex;
+    justify-content: center;
+}
+
+#cart-container {
+    padding: 15px 150px 20px 10px;
+}
+
+#red-warning {
+    color: red;
+    padding: 10px 250px 10px 490px;
+}
+
+#total {
+
+    width: 200px;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.total-sub-card {
+    display: flex;
+    font-size: 20px;
+    font-weight: bold;
+    justify-content: space-between;
+
+}
+
+
+.add-to-cart-btn {
+    padding: 10px 10px;
+    margin-left: 0px;
+    color: gray;
+    border: 2px solid gray;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+
+.details-btn {
+    padding:10px 20px;
+    margin: 20px 25px ;
+    color: green;
+    border: 2px solid green;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.details-btn:hover,
+.add-to-cart-btn:hover {
+    background-color: #d0b99d;
+    cursor: pointer;
+}
+
+.img-concise {
+    width: 20%;
+    border-radius: 45%;
+    margin-bottom: 20px;
+}
+
+.p-concise {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.drink-concise {
+    display: flex;
+
+    justify-content: space-between;
+}
+
+.img ,
+.name {
+    font-size: 25px;
+}
+
+.modal {
+  display: none; 
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+  background-color: white;
+  margin: 10% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 40%;
+  border-radius: 8px;
+}
+
+.close-btn {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  cursor: pointer;
+}
+
+.close-btn:hover {
+  color: black;
+}
+
+#modal-img {
+    width: 100%;
+    height: 500px;
+}
+
+#modal-category,
+#modal-alcoholic,
+#modal-instructions {
+  margin: 8px;
+  font-size: 26px;
+}
+
+#modal-title {
+    text-align: center;
+}

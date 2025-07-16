@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="input-container">
+        <input id="search-bar" type="text" placeholder="Search your drink">
+        <button id="search-btn">Search</button>
+    </div>
+
+    <div id="emptySearch"></div>
+
+    <div id="main-container">
+        <div id="drink-container"></div>
+        <div id="cart-container">
+            <p id="total">Total cart: <span id="total-no">0</span></p>
+            <div class="total-sub-card">
+                <p class="img">Img</p>
+                <p class="name">Name</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="drink-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h2 id="modal-title"></h2>
+            <hr>
+            <img id="modal-img" src="" alt="">
+            <p id="modal-category"></p>
+            <p id ="modal-alcoholic"></p>
+            <p id="modal-instructions"></p>
+        </div>
+    </div>
+   
+
+
+    <script src="app.js"></script>
+</body>
+</html>
